@@ -30,7 +30,7 @@ read -p "Url para builder (ej: typebot.sudominio.com): " builder
 echo ""
 read -p "Puerto de Builder (predeterminado: 3001): " portabuilder #novo
 echo ""
-read -p "Url para Viewer (ej: bot.sudominio.com): " viewer
+read -p "Url para Viewer (ej: viewer.sudominio.com): " viewer
 echo ""
 read -p "Puerto de Viewer (predeterminado: 3002): " portaviewer #novo
 echo ""
@@ -38,7 +38,7 @@ read -p "Url para Storage (ej: storage.sudominio.com): " storage
 echo ""
 read -p "Puerto de Storage (predeterminado: 9000): " portastorage #novo
 echo ""
-read -p "Su Email (ex: contacto@dominio.com): " email
+read -p "Su Email (ej: contacto@dominio.com): " email
 echo ""
 read -p "Contraseña para tu correo electrónico (si es gmail, debe ser la contraseña de la aplicación): " senha
 echo ""
