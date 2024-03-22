@@ -43,15 +43,15 @@ Antes de la instalación, es extremadamente importante que cree 3 registros en e
 
 1- Copia el siguiente comando y pégalo en tu terminal:
 ```
-sudo apt install -y git && git clone https://github.com/elboga5/typebot.git && cd typebot && chmod +x typebot.sh && ./typebot.sh
+sudo apt install -y git && git clone https://github.com/elboga5/typebot.git && cd autoinstalltypebot && chmod +x typebot.sh && ./typebot.sh
 ```
 
 Cuando ejecute este código, le pedirá que proporcione la siguiente información:
    - Enlace del constructor (por ejemplo, typebot.tudominio.com);
    - Puerto del constructor (predeterminado: 3001);
-   - Enlace del visor (por ejemplo, bot.tudominio.com);
+   - Enlace del visor (por ejemplo, view.tudominio.com);
    - Puerto del visor (predeterminado: 3002);
-   - Enlace de almacenamiento (por ejemplo, almacenamiento.sudominio.com);
+   - Enlace de almacenamiento (por ejemplo, storage.sudominio.com);
    - Puerto de almacenamiento (predeterminado: 9000);
    - Su correo electrónico (por ejemplo, contacto@dominio.com);
    - Contraseña de su correo electrónico (si es gmail, debe ser la contraseña de la aplicación);
