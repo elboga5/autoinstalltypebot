@@ -75,6 +75,7 @@ sudo apt install nginx -y
 sudo apt update
 
 sudo apt install certbot -y
+sudo apt install python3-certbot-nginx -y
 sudo apt update
 
 mkdir typebot.io
@@ -321,14 +322,9 @@ sudo mv storage /etc/nginx/sites-available/
 sudo ln -s /etc/nginx/sites-available/storage /etc/nginx/sites-enabled
 
 ###############################################
+sudo certbot --nginx --email $email --redirect --agree-tos -d $builder -d $viewer -d $storage
 
-sudo certbot -m $email \
-          --nginx \
-          --agree-tos \
-          --non-interactive \
-          --domains $builder,$viewer,$storage
-
-sudo service nginx restart
+systemctl restart nginx
 ###############################################
 
 echo -e "\e[32m\e[0m"
