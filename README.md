@@ -43,7 +43,7 @@ Antes de la instalación, es extremadamente importante que cree 3 registros en e
 
 1- Copia el siguiente comando y pégalo en tu terminal:
 ```
-sudo apt install -y git && git clone https://github.com/elboga5/typebot.git && cd autoinstalltypebot && chmod +x typebot.sh && ./typebot.sh
+sudo apt install -y git && git clone https://github.com/elboga5/autoinstalltypebot.git && cd autoinstalltypebot && chmod +x typebot.sh && ./typebot.sh
 ```
 
 Cuando ejecute este código, le pedirá que proporcione la siguiente información:
