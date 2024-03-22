@@ -328,7 +328,7 @@ sudo certbot -m $email \
           --non-interactive \
           --domains $builder,$viewer,$storage
 
-
+sudo service nginx restart
 ###############################################
 
 echo -e "\e[32m\e[0m"
