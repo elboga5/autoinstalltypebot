@@ -2,7 +2,7 @@
 
 # Auto Instalador de Typebot
 
-Este autoinstalador se probó utilizando un VPS Contabo vacío (4vCores + 8Gb Ram) con **Ubunto 20.04**
+Este autoinstalador se probó utilizando un VPS (4vCores + 8Gb Ram) con **Ubunto 20.04**
 En esta versión, puedes elegir los puertos durante la instalación, lo que permite integrar Typebot con cualquier otra aplicación.
 
 ### 📌 Notas importantes:
