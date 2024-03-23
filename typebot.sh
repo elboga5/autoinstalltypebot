@@ -127,7 +127,7 @@ services:
       - SMTP_PORT=$portasmtp
       - SMTP_USERNAME=$email
       - SMTP_PASSWORD=$senha
-      - NEXT_PUBLIC_SMTP_FROM='Suporte Typebot' <$email>
+      - NEXT_PUBLIC_SMTP_FROM='Soporte MCX BOT Typebot' <$email>
 
       - S3_ACCESS_KEY=minio
       - S3_SECRET_KEY=minio123
